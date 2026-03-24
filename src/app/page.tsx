@@ -313,6 +313,48 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Platforms Section */}
+      <section id="platforms" className="py-24 px-6">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold mb-4">Platforms & Documentation</h2>
+          <p className="text-[#718096] mb-12">Live products and developer resources</p>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <a href="https://qbtlabs.io" target="_blank" rel="noopener noreferrer"
+               className="bg-[#12121a]/80 backdrop-blur-sm border border-[#2a2a3a] rounded-xl p-6 hover:border-[#4a90d9] transition-all duration-300 group hover:-translate-y-1">
+              <div className="text-3xl mb-4">🏢</div>
+              <h3 className="text-xl font-semibold mb-2 group-hover:text-[#4a90d9] transition-colors">QBT Labs</h3>
+              <p className="text-[#718096] text-sm mb-3">AI trading infrastructure company. Market making, MCP tooling, and payment protocols.</p>
+              <span className="text-xs font-mono text-[#4a90d9]">qbtlabs.io →</span>
+            </a>
+            
+            <a href="https://web.qbtlabs.io" target="_blank" rel="noopener noreferrer"
+               className="bg-[#12121a]/80 backdrop-blur-sm border border-[#2a2a3a] rounded-xl p-6 hover:border-[#4a90d9] transition-all duration-300 group hover:-translate-y-1">
+              <div className="text-3xl mb-4">🌐</div>
+              <h3 className="text-xl font-semibold mb-2 group-hover:text-[#4a90d9] transition-colors">QBT Labs Web</h3>
+              <p className="text-[#718096] text-sm mb-3">Professional website and e-shop development services for businesses.</p>
+              <span className="text-xs font-mono text-[#4a90d9]">web.qbtlabs.io →</span>
+            </a>
+            
+            <a href="https://docs.openmm.io" target="_blank" rel="noopener noreferrer"
+               className="bg-[#12121a]/80 backdrop-blur-sm border border-[#2a2a3a] rounded-xl p-6 hover:border-[#4a90d9] transition-all duration-300 group hover:-translate-y-1">
+              <div className="text-3xl mb-4">📚</div>
+              <h3 className="text-xl font-semibold mb-2 group-hover:text-[#4a90d9] transition-colors">OpenMM Docs</h3>
+              <p className="text-[#718096] text-sm mb-3">Complete documentation for OpenMM SDK, MCP integration, and trading strategies.</p>
+              <span className="text-xs font-mono text-[#4a90d9]">docs.openmm.io →</span>
+            </a>
+            
+            <a href="https://api.openmm.io" target="_blank" rel="noopener noreferrer"
+               className="bg-[#12121a]/80 backdrop-blur-sm border border-[#2a2a3a] rounded-xl p-6 hover:border-[#4a90d9] transition-all duration-300 group hover:-translate-y-1">
+              <div className="text-3xl mb-4">⚡</div>
+              <h3 className="text-xl font-semibold mb-2 group-hover:text-[#4a90d9] transition-colors">OpenMM API</h3>
+              <p className="text-[#718096] text-sm mb-3">REST API reference and endpoints for programmatic access to OpenMM services.</p>
+              <span className="text-xs font-mono text-[#4a90d9]">api.openmm.io →</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Experience Section */}
       <section id="experience" className="py-24 px-6">
         <div className="max-w-4xl mx-auto">
